@@ -1,0 +1,12 @@
+n= True
+    print("Dame los numeros a sumar",suma)
+        m = int(input())
+        p = 1
+        suma=0
+        while p <= m:
+            print("Dame los numeros que requieres",p)
+            num = int(input())
+            if num % 2 == 0:
+                suma = suma + num
+            p = p + 1
+        print("La suma de los numeros es",suma)

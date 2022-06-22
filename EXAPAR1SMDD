@@ -1,0 +1,43 @@
+n= True
+while n :
+    print("Escoge una opcion")
+    print("Opcion a . Refresco1")
+    print("Opcion b . Refresco2")
+    print("Opcion c . Refresco3")
+    print("Opcion d . Salir")
+    op = input()
+    if op == "a" or op = "A":
+        print("La cantidad del refresco es 270")
+        m = int(input())
+        while p <= m:
+            print("Acepto monedas y billetes de 10,50 y 100")
+            num = int(input())
+            if num % 2 == 0:
+                resta = resta - num
+            p = p - 1
+        print("Tu cambio es de",resta)
+        
+    if op == "b" or op = "B":
+        print("La cantidad de refresco es de 340",resta)
+        m = int(input())
+        p = 1
+        resta=0
+        while p <= m:
+            print("Con cuanto vas a pagrar",p)
+            num = int(input())
+            if num % 2 == 1:
+                resta = resta - num
+            p = p - 1
+        print("La cantidad del refresco es de 390",resta)
+    if op == "c" or op = "C":
+        w = True
+        resta = 0
+        while w:
+            print("Con cuanto vas a pagar",w)
+            num = int(input())
+            resta = resta - num
+            print("Su cambio es de",w)
+    if op == "d" or op = "D":
+        print("Hasta luego, vuelve pronto")
+        n = False
+        
