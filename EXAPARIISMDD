@@ -1,12 +1,15 @@
-n= True
-    print("Dame los numeros a sumar",suma)
-        m = int(input())
-        p = 1
-        suma=0
-        while p <= m:
-            print("Dame los numeros que requieres",p)
-            num = int(input())
-            if num % 2 == 0:
-                suma = suma + num
-            p = p + 1
-        print("La suma de los numeros es",suma)
+n = int (input("Cantidad de numeros: "))
+suma = 0
+while n >= 0:
+    num = int(input("Numero: "))
+    suma = suma + num
+    n = n - 1
+    print ("La suma total es",suma)
+
+m = int(input("Cantidad de numeros que desea"))
+multiplicar = 0
+while m >= 0:
+    num = int(input("Numeros: "))
+    multiplicar = multiplicar * num
+    m = m -1
+    print("El total es",multiplicar)
